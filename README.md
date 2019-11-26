@@ -10,8 +10,11 @@ We can also use the decoded new images to do classification and compare the clas
 1. PSNR, SSIM, MSE(no mnist)
 2. Reconstruction time(not necessary for sample time: sample time --> number of masks --> sample rate)   (no mnist)
 3. Later Classification Performance(only for mnist)
+
 # Experiment
+
 1---------------------  exp_1
+
 First get the best batchsize by testing(best batchsize is 2) and best matrix for the matrix method(best matrix is hadamard matrix)
 Dataset: Face    Cifar   Stl
 Size:    32      64      128
@@ -19,7 +22,9 @@ Rate:    0.001, 0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8
 Method: f1-f7
 
 Compare: PSNR, SSIM, MSE, Reconstruction Time
+
 2--------------------   exp_2
+
 Dataset: Mnist   size = 28    Need to save images and decoded images
 Rate:    0.001, 0.01, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8
 Method: f1-f7
